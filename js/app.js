@@ -32,12 +32,12 @@ let brand = [
 	{color: "#EEAA01", name: "Saison"},
 ];
 
-brand.forEach( (bier) => {
-	hexArray.push({
-		color: bier.color,
-		name: bier.name,
-	});
-});
+// brand.forEach( (bier) => {
+// 	hexArray.push({
+// 		color: bier.color,
+// 		name: bier.name,
+// 	});
+// });
 	
 var Color = function Color(hexVal) { //define a Color class for the color objects
 	this.hex = hexVal.color;
