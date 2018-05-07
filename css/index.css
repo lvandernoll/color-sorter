@@ -1,0 +1,43 @@
+* {
+	font-family: 'Ubuntu';
+}
+
+h2 {
+	display: block;
+	margin-top: 30px;
+}
+
+.block {
+	display: block;
+	width: 30px;
+	margin: 1px;
+}
+
+.color__picker {
+	display:flex;
+	flex-direction: column;
+	width: fit-content;
+}
+
+.color__picker > * {
+	margin: 5px 0;
+	padding: 0;
+}
+
+.hex__wrapper {
+	display: flex;
+	border: 1px solid black;
+	height: 50px;
+	width: fit-content;
+	padding: 1px;
+}
+
+.color__hover {
+	background-color: white;
+	border: 1px solid black;
+	position: absolute;
+}
+
+.hidden {
+	display: none;
+}

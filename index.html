@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Color sorter</title>
+		<link rel="stylesheet" type="text/css" href="css/index.css">
+		<link href="https://fonts.googleapis.com/css?family=Ubuntu" rel="stylesheet">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+	</head>
+	<body>
+		<div class="color__picker">
+			<h2>Enter a color</h2>
+			<header>Name:</header>
+			<input id="nameInput" type="text" placeholder="White"/>
+			<header>Hex value:</header>
+			<input id="valueInput" type="text" placeholder="#FFFFF"/>
+			<button id="addButton">Add</button>
+		</div>
+		<div id="colorPalette" class="hidden">
+			<h2>Color Palette</h2>
+			<div class='hex__wrapper'></div>
+		</div>
+	</body>
+	<script src="js/app.js"></script>
+</html>
